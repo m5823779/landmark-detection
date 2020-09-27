@@ -1,6 +1,6 @@
 ## Monitor Landmark Detection with HRNet
 
-This repository contains code to detect monitor landmark.
+This repository contains code to detect (track) landmark.
 
 ![image](https://github.com/m5823779/landmark_detection_with_hrnet/blob/master/doc/demo.gif)
 
