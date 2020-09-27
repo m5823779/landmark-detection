@@ -35,13 +35,13 @@ file in to `/datasets/monitor`.
 
     - Download the pre-trained weights running the script ``download_weights.sh`` from the ``weights`` folder
 
-### Running live demo
+### Demo
 
 ```
 python scripts/live-demo.py --camera_id 0
 ```
 
-#### Running the training script
+#### Training
 
 ```
 python scripts/train_coco.py
