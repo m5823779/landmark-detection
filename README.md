@@ -29,34 +29,16 @@ file in to `/datasets/monitor`.
 
 4)  Get YOLOv3:
 
-- Clone [YOLOv3](https://github.com/eriklindernoren/PyTorch-YOLOv3/tree/47b7c912877ca69db35b8af3a38d6522681b3bb3) in the folder ``./models/detectors`` and change the folder name from ``PyTorch-YOLOv3`` to ``yolo``  
+    - Clone [YOLOv3](https://github.com/eriklindernoren/PyTorch-YOLOv3/tree/47b7c912877ca69db35b8af3a38d6522681b3bb3) in the folder ``./models/detectors`` and change the folder name from ``PyTorch-YOLOv3`` to ``yolo``  
 
-- Install YOLOv3 required packages  ``pip install -r requirements.txt`` (from folder `./models/detectors/yolo`)
+    - Install YOLOv3 required packages  ``pip install -r requirements.txt`` (from folder `./models/detectors/yolo`)
 
-- Download the pre-trained weights running the script ``download_weights.sh`` from the ``weights`` folder
+    - Download the pre-trained weights running the script ``download_weights.sh`` from the ``weights`` folder
 
 ### Running live demo
 
-From a connected camera:
 ```
 python scripts/live-demo.py --camera_id 0
-```
-From a saved video:
-```
-python scripts/live-demo.py --filename video.mp4
-```
-
-For help:
-```
-python scripts/live-demo.py --help
-```
-
-#### Extracting keypoints:
-
-From a saved video:
-```
-python scripts/live-demo.py --camera_id 0 --hrnet_weights ./logs/checkpoint.pth
-
 ```
 
 #### Running the training script
@@ -90,7 +72,8 @@ python scripts/train_coco.py --help
     ├── training                (training code)
     └── weights                 (HRnet weights)
     ```
-- If you want to run the training script on COCO `scripts/train_coco.py`, you have to build the `nms` module first.  
+
+If you want to run the training script on COCO `scripts/train_coco.py`, you have to build the `nms` module first.  
   Please note that a linux machine with CUDA is currently required. 
   Built it with either: 
   - `cd misc; make` or
