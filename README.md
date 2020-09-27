@@ -2,7 +2,7 @@
 
 This repository contains code to detect monitor landmark.
 
-![image](https://github.com/m5823779/monitor_landmark_detection_with_hrnet/blob/master/doc/demo.gif)
+![image](https://github.com/m5823779/landmark_detection_with_hrnet/blob/master/doc/demo.gif)
 
 ### Setup
 1) Download the model weights [checkpoint.pth](https://drive.google.com/file/d/1TdS4kdbAgGp3pQht7WtQfeWuehBr2OWn/view?usp=sharing) and place the
