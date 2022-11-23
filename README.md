@@ -6,7 +6,7 @@ This repository contains code to detect (track) landmark.
 
 ### Introduce
 
-As the augmented reality (AR) industry in recent years, the rapid development AR device such as smartphone and AR glasses for the growing demand. For AR technology, being able to track real-world objects stably is the most important and difficult part. And most of the current AR technologies are based on SLAM which is based on the point cloud (feature points). This reason leads to his zero awareness of real-world things. For convolutional neural networks, it has been proven many times to have excellent results in "Facial Landmark Detection" and "Human Pose Estimation". We combine this and AR. So that, let it not only can tracking things but also awareness real world easily.
+Landmark detection usually be used on facial tracking. For this project, we use the same concept to detect landmarks that we are interested in to calculate the object pose.
 
 
 ### Setup
