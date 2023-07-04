@@ -2,8 +2,6 @@
 
 This repository contains code to detect (track) landmark.
 
-![image](https://github.com/m5823779/landmark_detection_with_hrnet/blob/master/doc/demo.gif)
-
 ### Introduce
 
 Landmark detection usually be used on facial tracking. For this project, we use the same concept to detect landmarks that we are interested in to calculate the object pose.
