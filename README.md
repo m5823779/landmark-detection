@@ -1,4 +1,4 @@
-## Monitor Landmark Detection with HRNet
+## Landmark Detection with HRNet
 
 This repository contains code to detect (track) landmark.
 
